@@ -55,8 +55,9 @@ function moveClock(){
     if (movSeg % 360 === 0){
         pontMin.style.setProperty("--rotation", grausMin());
     }
-    if(movMin % 360 === 0){
-        pontHor.style.setProperty("--rotation", grausHor());
+    if(movMin % 354 === 6){
+        //está chamando várias vzs
+        setTimeout(pontHor.style.setProperty("--rotation", grausHor()), 60000)
     }
 }
 

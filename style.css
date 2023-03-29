@@ -27,17 +27,65 @@ body{
     width: 100%;
 }
 
+.min1{ transform: rotate(6deg);}
+.min2{ transform: rotate(12deg);}
+.min3{ transform: rotate(18deg);}
+.min4{ transform: rotate(24deg);}
 .number1{ transform: rotate(30deg); }
+.min6{ transform: rotate(36deg);}
+.min7{ transform: rotate(42deg);}
+.min8{ transform: rotate(48deg);}
+.min9{ transform: rotate(54deg);}
 .number2{ transform: rotate(60deg); }
+.min11{ transform: rotate(66deg);}
+.min12{ transform: rotate(72deg);}
+.min13{ transform: rotate(78deg);}
+.min14{ transform: rotate(84deg);}
 .number3{ transform: rotate(90deg); }
+.min16{ transform: rotate(96deg);}
+.min17{ transform: rotate(102deg);}
+.min18{ transform: rotate(108deg);}
+.min19{ transform: rotate(114deg);}
 .number4{ transform: rotate(120deg); }
+.min21{ transform: rotate(126deg);}
+.min22{ transform: rotate(132deg);}
+.min23{ transform: rotate(138deg);}
+.min24{ transform: rotate(144deg);}
 .number5{ transform: rotate(150deg); }
+.min26{ transform: rotate(156deg);}
+.min27{ transform: rotate(162deg);}
+.min28{ transform: rotate(168deg);}
+.min29{ transform: rotate(174deg);}
 .number6{ transform: rotate(180deg); }
+.min31{ transform: rotate(186deg);}
+.min32{ transform: rotate(192deg);}
+.min33{ transform: rotate(198deg);}
+.min34{ transform: rotate(204deg);}
 .number7{ transform: rotate(210deg); }
+.min36{ transform: rotate(216deg);}
+.min37{ transform: rotate(222deg);}
+.min38{ transform: rotate(228deg);}
+.min39{ transform: rotate(234deg);}
 .number8{ transform: rotate(240deg); }
+.min41{ transform: rotate(246deg);}
+.min42{ transform: rotate(252deg);}
+.min43{ transform: rotate(258deg);}
+.min44{ transform: rotate(264deg);}
 .number9{ transform: rotate(270deg); }
+.min46{ transform: rotate(276deg);}
+.min47{ transform: rotate(282deg);}
+.min48{ transform: rotate(288deg);}
+.min49{ transform: rotate(294deg);}
 .number10{ transform: rotate(300deg); }
+.min51{ transform: rotate(306deg);}
+.min52{ transform: rotate(312deg);}
+.min53{ transform: rotate(318deg);}
+.min54{ transform: rotate(324deg);}
 .number11{ transform: rotate(330deg); }
+.min56{ transform: rotate(336deg);}
+.min57{ transform: rotate(342deg);}
+.min58{ transform: rotate(348deg);}
+.min59{ transform: rotate(354deg);}
 
 .rot1{ 
     display: inline-block;
