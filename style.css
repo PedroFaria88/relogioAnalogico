@@ -18,7 +18,7 @@ body{
     border: 2px solid black;
     text-align: center;
     position: relative;
-    font-size: 2em;
+    font-size: 1.9em;
 }
 
 .number{
@@ -152,6 +152,7 @@ z-index: 10;
     height: 25%;
     background-image: url(ponteiro.png);
     background-size: 100% 100%;
+    transition: 1s;
     
 }
 

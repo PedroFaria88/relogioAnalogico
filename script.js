@@ -48,6 +48,7 @@ function grausHor(){
     }
 }
 
+hourSafe = false;
 
 
 function moveClock(){
@@ -55,9 +56,12 @@ function moveClock(){
     if (movSeg % 360 === 0){
         pontMin.style.setProperty("--rotation", grausMin());
     }
-    if(movMin % 354 === 6){
-        //está chamando várias vzs
-        setTimeout(pontHor.style.setProperty("--rotation", grausHor()), 60000)
+    if ((movMin - 254) % 360 === 0){
+        hourSafe = true;
+    }
+    if(movMin % 360 === 0 && hourSafe === true){
+        pontHor.style.setProperty("--rotation", grausHor());
+        hourSafe = false;
     }
 }
 
