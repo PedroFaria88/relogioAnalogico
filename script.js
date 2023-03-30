@@ -56,7 +56,7 @@ function moveClock(){
     if (movSeg % 360 === 0){
         pontMin.style.setProperty("--rotation", grausMin());
     }
-    if ((movMin - 254) % 360 === 0){
+    if ((movMin + 6) % 360 === 0){
         hourSafe = true;
     }
     if(movMin % 360 === 0 && hourSafe === true){
